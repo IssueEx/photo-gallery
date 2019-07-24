@@ -1,0 +1,162 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: #000000;
+}
+.header{
+  display:flex;
+  justify-content: center;
+}
+h1{
+  color: white;
+  text-align: center;
+  font-family: 'Fascinate', cursive;
+  font-size: 70px;
+  margin-top: 10px;
+  border: dashed white;
+  display: inline-block;
+}
+.all-pics{
+  display:flex;
+  height: 100px;
+  width: 100px;
+  margin: auto;
+  flex-direction: column;
+  align-items: center;
+
+
+
+}
+img{
+
+  height:200px;
+  width:200px;
+  object-fit: cover;
+  justify-content: center;
+  margin: 20px 50px;
+
+
+  j
+}
+.red{
+  display:flex;
+  flex-direction: row;
+}
+.orange{
+  display:flex;
+  flex-direction: row;
+
+}
+.yellow{
+  display:flex;
+  flex-direction: row;
+
+}
+.green{
+  display:flex;
+  flex-direction: row;
+
+}
+.blue{
+  display:flex;
+  flex-direction: row;
+}
+.purple{
+  display:flex;
+  flex-direction: row;
+}
+.magenta{
+  display:flex;
+  flex-direction: row;
+}
+.pink{
+  display:flex;
+  flex-direction: row;
+}
+.navy{
+  display:flex;
+  flex-direction: row;
+}
+.black{
+  display:flex;
+  flex-direction: row;
+}
+
+@media screen and (max-width: 900px){
+  h1{
+    text-align:center;
+    margin= 0px;
+    font-size: 70px;
+    padding: 10px;
+  }
+  img{
+    height:200px;
+    width:200px;
+    margin: 5px;
+  }
+
+  .all-pics{
+    display:flex;
+    align-items: flex-start;
+    margin: 10px;
+    margin-left: 120px;
+  }
+
+}
+
+@media screen and (max-width: 600px){
+  h1{
+    text-align: center;
+    margin= 0px;
+    font-size: 50px;
+  }
+  img{
+    height:300px;
+    width:300px;
+    margin:10px 90px;
+  }
+  .red{
+    display:flex;
+    flex-direction: column;
+  }
+  .orange{
+    display:flex;
+    flex-direction: column;
+  }
+  .yellow{
+    display:flex;
+    flex-direction: column;
+  }
+  .green{
+    display:flex;
+    flex-direction: column;
+  }
+  .blue{
+    display:flex;
+    flex-direction: column;
+  }
+  .purple{
+    display:flex;
+    flex-direction: column;
+  }
+  .magenta{
+    display:flex;
+    flex-direction: column;
+  }
+  .pink{
+    display:flex;
+    flex-direction: column;
+  }
+  .navy{
+    display:flex;
+    flex-direction: column;
+  }
+  .black{
+    display:flex;
+    flex-direction: column;
+  }
+
+}
